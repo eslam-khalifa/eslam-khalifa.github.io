@@ -1,0 +1,33 @@
+*it is a template using html and css
+*as a ui developer you will receive from the teamleader the design made by the ui-ux designer on photoshop(.psd) and you will convert this design into code
+*ui developer: focuses on html css bootstrap javascript jquery
+*front-end: focuses on javascript
+*starting the template, you should think more than one time:
+    (1)observe the repeated things .. divs and in each div there is a header and a line under it
+        there is lots of hover which uses opacity .. you will make one style and use grouping
+        make the folder of your template then make folders and files of the template
+* there is library called (font awesome) will be downloaded .. you should take web fonts and all.min.css
+* we will need the font type: varela, round, san-serfis
+* it is preferred to put the style.css file as the last file implemented in your html code
+* container will be into each section and we will not make one container for all the sections of our website
+* second solution of float problem is to put all the nav bar in another div and give it ---> overflow: hidden; .. why we don't give it for container because it is general and it will be used another time
+* it is preferred to use a for padding in the navbar for links because when hovering it will make the mouse be a hand
+* a is inline but ul is inline-block
+* if you found an image and there is text on it, this is image is preferred to be made by css(background-image: url();)
+    but if there is no text you can made it by html and position
+        difference: image with css ---> you can't save this is image to your computer
+            html ---> you can save it
+* it is preferred to give all elements (a class): because if you want to make any modification to change h1 to div for example
+* don't capitalize any character in html do it in css
+* view port: the view of the website i can see now without scrolling
+* background-size: cover; to make the photo to cover all the website
+* if you put the overlay in a div beside the content what happens and what is the solution?
+    we can't select the content and the solution is to put the content inside the overlay div
+* we use position for two ways one of them is hero-image: to center an element in an another element
+* transition is made on all the element and to make it on a specific property you should do this ----> transform: opacity 0.5;
+* position fixed and width 100%: will shrink the element
+* position fixed and absolute: will convert the element from block to inline-block
+* when you made overflow hidden and you made a subset like blogposts you need to use the traditional way --> clear: both;
+* the element takes margin: auto is the block
+* you can make it absolute even if the parent is absolute or relative or fixed
+* you should make utilities.css file to make clean code ... it really affects the performance of your website
